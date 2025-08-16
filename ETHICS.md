@@ -1,2 +1,8 @@
-# Ethics
-Use PromptProbe only on authorized targets and sanitized test corpora. Attack packs here are harmless text designed to test guardrails and policy adherence. Do not include client data or secrets in prompts or logs.
+# Ethics & Scope
+
+PromptProbe exists to **test** LLM apps for weaknesses such as **LLM01: Prompt Injection** and **LLM02: Sensitive Information Disclosure** from the OWASP Top 10 for LLM Applications (2025). Use on **authorized** systems and sanitized corpora only. Do not embed real secrets or target third-party services. Reports are intended for remediation and CI gating, not public shaming.
+
+References:
+- OWASP Top 10 for LLM Applications — LLM01/LLM02.  
+- 2025 PDF overview (living document).
+
