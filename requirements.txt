@@ -1,3 +1,10 @@
-jinja2>=3.1.2
-requests>=2.31.0
-pyyaml>=6.0.1
+# Core
+requests>=2.32.3
+jinja2>=3.1.4
+pydantic>=2.8.2
+typer>=0.12.3
+rich>=13.7.1
+python-dateutil>=2.9.0.post0
+
+# Optional: colorized HTML diffs (safe if missing)
+markupsafe>=2.1.5
