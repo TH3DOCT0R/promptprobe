@@ -1,0 +1,22 @@
+version: 1
+attacks:
+  - id: system_prompt_leak
+    file: system_prompt_leak.md
+    ref: https://simonwillison.net/series/prompt-injection/
+    severity: high
+  - id: tool_abuse_transfer
+    file: tool_abuse_transfer.md
+    ref: https://genai.owasp.org/llmrisk/llm01-prompt-injection/
+    severity: high
+  - id: harmless_overrides
+    file: harmless_overrides.md
+    ref: https://www.evidentlyai.com/llm-guide/prompt-injection-llm
+    severity: medium
+  - id: rag_injection_doc
+    file: rag_injection_doc.md
+    ref: https://www.lakera.ai/blog/guide-to-prompt-injection
+    severity: high
+  - id: many_shot_context
+    file: many_shot_context.md
+    ref: https://www.anthropic.com/research/many-shot-jailbreaking
+    severity: high
